@@ -1,5 +1,5 @@
 .container {
-    margin: 0 200px;
+    margin: 0 100px;
     background-color: rgb(223, 223, 223);
 }
 /* header area */
@@ -46,5 +46,18 @@
 .highlighted {
     background-color: yellow;
 }
-
+/* Table area */
+table {
+    border-collapse: collapse;
+}
+#table-data {
+    width: 70%;
+}
+thead {
+    background-color: rgb(5, 159, 255);
+    color: white;
+}
+.colored {
+    background-color: lightblue;
+}
 /* footer area */
