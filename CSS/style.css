@@ -2,12 +2,13 @@
     font-family: 'Roboto', sans-serif;
 }
 .container {
-    margin: 0 100px;
+    width: 1200px;
+    margin: 0 auto;
 }
 /* header area */
 .logo {
     width: 15%;
-    padding: 40px 0 0 5px;
+    padding: 25px 0 0 5px;
 }
 .bunner {
     width: 100%;
@@ -49,6 +50,10 @@
 .highlighted {
     background-color: yellow;
 }
+/* List area */
+ul {
+    padding-left: 17px;
+}
 /* Table area */
 table {
     border-collapse: collapse;
@@ -67,10 +72,11 @@ thead {
 .computer {
     width: 250px;
     height: 200px;
+    margin-bottom: 5px;
     background-image: url(./img/monitor.jpg);
     text-align: center;
     color: white;
-    margin-bottom: 5px;
+    font-weight: bold;
 }
 .data {
     width: 250px;
@@ -78,4 +84,6 @@ thead {
     background-image: url(./img/graph.jpg);
     text-align: center;
     color: white;
+    font-weight: bold;
+
 }
