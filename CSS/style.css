@@ -42,5 +42,9 @@
     background-size: cover;
     display: inline-block;
 }
+/* Article 1 area */
+.highlighted {
+    background-color: yellow;
+}
 
 /* footer area */
